@@ -15,8 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Utiq",
-            url: "https://github.com/UtiqTech/ios-sdk/releases/download/0.1.76/Utiq-0.1.76.zip",
-            checksum: "7a8a817777a11b72c2f606def17946180820fab918fb492145a4cd55c5989ccb"
+            url: "https://github.com/UtiqTech/ios-sdk/releases/download/0.2.0/Utiq-0.2.0.zip",
+            checksum: "da00f189ca334eb0c4bd54a820a69ac41088841b2a0955fe0899aa474461b78f"
         )
     ] 
 )
