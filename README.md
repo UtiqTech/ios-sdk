@@ -9,10 +9,6 @@
     <img src="https://img.shields.io/badge/Swift%20Package%20Manager-compatible-00C853?style=flat&logo=swift&logoColor=white" alt="Swift Package Manager Compatible" />
   </a>
 
-  <a href="https://cocoapods.org/pods/UTIQ">
-    <img src="https://img.shields.io/cocoapods/v/UTIQ.svg?style=flat&color=blue&logo=cocoapods&logoColor=white" alt="CocoaPods Version" />
-  </a>
-
   <img src="https://img.shields.io/badge/platforms-iOS%2012.0-333333?style=flat&logo=apple&logoColor=white" alt="Platform" />
 
   <a href="https://github.com/UtiqTech/ios-sdk/blob/main/LICENSE">
