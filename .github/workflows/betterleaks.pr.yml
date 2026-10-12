@@ -2,15 +2,11 @@ name: betterleaks.pr
 
 on:
   pull_request:
-  workflow_call:
+
+permissions:
+  contents: read
 
 jobs:
-  scan:
-    runs-on: ubuntu-24.04
-    container:
-      image: ghcr.io/betterleaks/betterleaks:v1.8.1
-    permissions:
-      contents: read
-    steps:
-    - run: |
-        betterleaks github --token "${{secrets.GITHUB_TOKEN}}" --log-opts "${{github.event.pull_request.base.sha}}..${{github.event.pull_request.head.sha}}" "${{github.server_url}}/${{github.repository}}"
+  betterleaks:
+    uses: UtiqTech/cicd/.github/workflows/betterleaks.pr.yml@main
+    secrets: inherit
